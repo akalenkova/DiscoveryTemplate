@@ -14,7 +14,6 @@ log = xes_importer.apply(sys.argv[1], variant=variant, parameters=parameters)
 # discover a model in the dot format
 dfa = discovery.dfa_discovery(log)
 
-
 # visualize the model
 print("Visualization...")
 dfa.viz()
